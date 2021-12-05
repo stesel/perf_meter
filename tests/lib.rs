@@ -27,7 +27,6 @@ mod tests {
     fn should_reset_ops_count_after_interval() {
         let secs = 1_u64;
         let mut pm = PerfMeter::new(secs);
-
         while (Instant::now() - pm.start) < pm.interval {
             pm.tick();
         }
