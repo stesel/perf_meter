@@ -1,0 +1,7 @@
+[package]
+name = "perf_meter"
+version = "0.1.0"
+edition = "2021"
+authors = ["Leonid Trofymchuk <stesel23@gmail.com>"]
+repository = "https://github.com/stesel/perf_meter.git"
+description = "Performance measure for 🦀"
