@@ -1,9 +1,8 @@
 #[cfg(test)]
-mod tests {
+mod perf_meter {
     extern crate perf_meter;
-
-    use std::time::{Duration, Instant};
     use perf_meter::PerfMeter;
+    use std::time::Instant;
 
     #[test]
     fn should_create_perf_meter_instance() {

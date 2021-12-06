@@ -8,7 +8,7 @@ pub struct PerfMeter {
 
 impl PerfMeter {
     pub fn new(interval_sec: u64) -> Self {
-        PerfMeter {
+        Self {
             interval: Duration::new(interval_sec, 0),
             ops_count: 0,
             start: Instant::now(),
